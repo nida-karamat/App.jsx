@@ -10,6 +10,9 @@
           "meta[name=theme-color]"
         ]
       }
-    ]
+    ],
+    "manifest-file-extension": "off",
+    "button-type": "off",
+    "typescript-config/is-valid": "off"
   }
 }

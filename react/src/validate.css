@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right,#fff7c8 0%, #fa709a 100%);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.card{
+    background: #fff7c8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50rem;
+    height: 30rem;
+    box-shadow: 0.5px 0.5px 1px 1px rgb(255, 255, blue);
+
+}
+.card-image{
+    background:url("C:\Users\Admin\OneDrive\Desktop\React.js\react\src\assets\images\images2.avif");
+    background-position: center;
+    background-size: cover; 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    width: 20rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #4e3636;
+    outline: none;
+}
+.error{
+    font-family: sans-serif;
+    color: red;
+}
+.submit-btn{
+    width: 80%;
+     margin-top: 10px;
+     margin-left: 20px;
+     padding: 10px 20px;
+     background: transparent;
+     background-color: #fa709a;
+     cursor: pointer;
+     border: none;
+     color: #fff7c8;
+     font-weight: bold;
+     
+
+}
